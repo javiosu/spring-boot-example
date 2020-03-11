@@ -1,0 +1,28 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "divisionName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "remark",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "completedRemark",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20200310091536",
+    "dto": "no",
+    "searchEngine": false,
+    "service": "no",
+    "entityTableName": "registration_division_memo",
+    "databaseType": "sql",
+    "readOnly": true,
+    "jpaMetamodelFiltering": false,
+    "pagination": "no"
+}

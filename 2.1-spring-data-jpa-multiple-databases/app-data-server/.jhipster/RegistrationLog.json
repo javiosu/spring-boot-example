@@ -1,0 +1,129 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "log",
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "deviceType",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "createdTime",
+            "fieldType": "ZonedDateTime"
+        },
+        {
+            "fieldName": "reqPersonalNo",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "reqBirthday",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "reqVisitDate",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "reqShiftCode",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "reqDivisionCode",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "reqClinicCode",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "reqDoctorEmpNo",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "reqIsPublicName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "reqIsBypassFirstVisitCheck",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "resStatus",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "resTitle",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "resPath",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "resMessage",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "resBirthday",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "resPatientName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "resIdNo",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "resMedicalNoteNo",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "resDivisionCode",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "resDivisionName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "resDoctorEmpNo",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "resDoctorName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "resVisitDate",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "resDisplayVisitDateShift",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "resDisplayClinicNameCategory",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "resVisitSeqNo",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "resSuggestedArrivalTime",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20200304023937",
+    "dto": "mapstruct",
+    "searchEngine": false,
+    "service": "serviceClass",
+    "entityTableName": "registration_log",
+    "databaseType": "sql",
+    "readOnly": false,
+    "jpaMetamodelFiltering": false,
+    "pagination": "no",
+    "microserviceName": "log"
+}

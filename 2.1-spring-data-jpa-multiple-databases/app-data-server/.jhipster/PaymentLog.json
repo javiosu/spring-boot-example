@@ -1,0 +1,93 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "log",
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "userName",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "paymentMethod",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "orderId",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "amount",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "apiName",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "requestTime",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "requestBody",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "responseTime",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "responseBody",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "returnCode",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "returnMessage",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "transactionId",
+            "fieldType": "String",
+            "fieldValidateRules": []
+        },
+        {
+            "fieldName": "debitBankCode",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "debitBankAccount",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "createdTime",
+            "fieldType": "Instant"
+        }
+    ],
+    "changelogDate": "20200114072058",
+    "dto": "mapstruct",
+    "searchEngine": false,
+    "service": "serviceClass",
+    "entityTableName": "payment_log",
+    "databaseType": "sql",
+    "readOnly": false,
+    "jpaMetamodelFiltering": true,
+    "pagination": "pagination",
+    "microserviceName": "log"
+}

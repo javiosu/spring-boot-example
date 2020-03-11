@@ -1,0 +1,97 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "nursing",
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "healthId",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "typeId",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "title",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "orders",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "healthPicture",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "healthPictureSrc",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "startTime",
+            "fieldType": "ZonedDateTime"
+        },
+        {
+            "fieldName": "endTime",
+            "fieldType": "ZonedDateTime"
+        },
+        {
+            "fieldName": "createBy",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "createName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "createTime",
+            "fieldType": "ZonedDateTime"
+        },
+        {
+            "fieldName": "createDeptId",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "createDeptName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "modifyBy",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "modifyName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "modifyTime",
+            "fieldType": "ZonedDateTime"
+        },
+        {
+            "fieldName": "modifyDeptId",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "modifyDeptName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "contentType",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "url",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20200106084938",
+    "dto": "mapstruct",
+    "searchEngine": false,
+    "service": "serviceClass",
+    "entityTableName": "department_division_health_education",
+    "databaseType": "sql",
+    "jpaMetamodelFiltering": false,
+    "readOnly": true,
+    "pagination": "no",
+    "microserviceName": "nursing"
+}

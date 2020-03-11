@@ -1,0 +1,82 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "nursing",
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "typeId",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "divisionId",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "typeName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "orders",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "createBy",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "createName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "createDeptId",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "createDeptName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "modifyBy",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "modifyName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "modifyDeptId",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "modifyDeptName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "startTime",
+            "fieldType": "ZonedDateTime"
+        },
+        {
+            "fieldName": "endTime",
+            "fieldType": "ZonedDateTime"
+        },
+        {
+            "fieldName": "createTime",
+            "fieldType": "ZonedDateTime",
+            "fieldValidateRules": []
+        },
+        {
+            "fieldName": "modifyTime",
+            "fieldType": "ZonedDateTime"
+        }
+    ],
+    "changelogDate": "20200106064346",
+    "dto": "mapstruct",
+    "searchEngine": false,
+    "service": "serviceClass",
+    "entityTableName": "department_division_health_education_type",
+    "databaseType": "sql",
+    "jpaMetamodelFiltering": false,
+    "readOnly": true,
+    "pagination": "no",
+    "microserviceName": "nursing"
+}
